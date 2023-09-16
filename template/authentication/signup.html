@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style">
+    <title>Signup Page</title>
+</head>
+<body>
+    <section class="login">
+        <div class="container">
+            <h1>SignUP</h1>
+            <div class="lgn">
+                <a href="index"  id="signup">SignUp</a>
+                <a href="index" id="login" class="hover_btn">Login</a>
+            </div>
+            
+            <form action="/signup" method="post">    
+            
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                <input type="email" id="email" name="email" placeholder="Email Adress" required>
+                <input type="password" id="pass" name="pass" placeholder="Pasword" required>
+                <input type="password" id="pass2" name="pass2"  placeholder="Confirm-Pasword" required>
+                
+            
+            <div class="forget">
+                <a href="" id="fgpass">Forgot Password</a>
+            </div>
+            <button><a href="index" id="loginBtn" class="hover_btn">Register</a></button>
+            <div class="sgnUp">
+            </form>
+                <p id="member">Not A Member?</p>
+                <a href="#" id="sgn_now">SignUp Now</a>
+            
+            </div>
+        </div>
+    </section>
+</body>
+</html>
